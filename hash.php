@@ -1,0 +1,9 @@
+<?php
+
+echo password_hash("admin", PASSWORD_DEFAULT);
+
+/*
+INSERT INTO users (name, password) VALUES ('admin', '$2y$10$0Z1J6Q5z8F1G9K7L3M4N5O6P7Q8R9S0T1U2V3W4X5Y6Z7A8B9C0D1E2F3G4H5I6');
+*/
+
+?>
